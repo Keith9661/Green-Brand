@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contacts
+        </title>
+        <style>
+            body{
+                background-color:white;
+                color: rgb(0, 0, 0);
+				font-size:medium;
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 10px 90px;
+            }
+            address{ text-align:center;
+					 color: black;
+			}
+            button{
+				color: black;
+				background-color: blue;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				-webkit-box-align: end;
+				color: #000;
+			}
+			.form{
+				width: 100%;
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				color: blue;
+			}
+			form{
+				display: flex;
+				flex-direction: column;
+				padding: 2vw 4vw;
+				width: 90%;
+				max-width: 600px;
+				border: radius 10px;
+				text-align: center;
+				color: blue;
+			}
+			form h3{
+				color:grey;
+				margin-bottom: 20px;
+				font-weight: 800;
+			}
+			form input , form textarea{
+				border: 0;
+				margin: 10px 0;
+				padding: 20px;
+				outline: none;
+				color: #000;
+				background-color: greenyellow;
+			}
+			form button{
+				padding: 15px;
+				border: 0;
+				outline: none;
+				cursor: pointer;
+				width: 150px;
+				margin: 20px auto 0;
+				border-radius: 30px;
+			}
+           footer{
+				text-align: right;
+				font-size: medium;
+				background-color: blue;
+				color: beige;
+			}
+			iframe{
+				width: 80%;
+				height: 500px;
+				filter: invert(100%);
+			}
+
+        </style>
+    </head>
+    <body>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.790429073923!2d36.82268561475407!3d-1.3006006990513905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f111d8767d24b%3A0x737db8d1248835f3!2sPlessey%20House!5e0!3m2!1sen!2ske!4v1677312489425!5m2!1sen!2ske" 
+		width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<form action="https://formsubmit.co/greenbrand20@gmail.com" method="POST" target"_blank">
+						<h3>Get in touch</h3>
+						<input type="email" id="email" placeholder="Email" required>
+						<input type="text" id="name" placeholder="What can we do for you" required>
+						<button type="submit">Send</button>
+						
+                    </form>
+		</script>
+		<footer>
+			Green Brand Agency 2023. All rights reserved.
+		</footer>
+    </body>
+</html>
